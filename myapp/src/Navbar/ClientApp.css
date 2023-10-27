@@ -1,0 +1,67 @@
+.ClientApp {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(130deg, rgb(16, 148, 113), #4c7ba2 20%, #71219c);
+}
+
+.auth-form-container, .login-form, .register-form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 20rem;
+}
+
+label{
+    align-items: center;
+    text-align: left;
+    font-size:medium;
+    color: #ffffff;
+    padding:0.2rem 0rem;
+}
+
+input{
+    margin: 0.5rem 0rem;
+    padding: 1rem;
+    font-size: medium;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    border: none;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.link-btn{
+    background: none;
+    color: #f0ffad;
+    text-decoration: underline;
+    align-self: center;
+    
+}
+
+.login-btn{
+    width:10rem;
+    padding: 10px;
+    font-size:medium;
+    align-self: center;
+    transition: 0.15s ease-in-out;
+}
+
+.login-btn:hover{
+    background-color: #019179;
+    color: #ffffff;
+    
+}
+
+h2{
+    color:#ffffff;
+    font-weight: 600;
+    font-size:xx-large;
+}

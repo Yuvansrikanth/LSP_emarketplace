@@ -1,0 +1,31 @@
+.img{
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-in-img{
+    padding:2vh;
+    position: absolute;
+    width: 98%;
+    top: 10vh;
+    color:#900C3F;
+    font-size: large;
+    height:86vh;
+    box-shadow: 400px 0px 1000px 0px rgb(255, 156, 194) inset;
+    letter-spacing: 0.1vh;
+    line-height: 6vh;
+
+}
+.text-in-img h1{
+    padding: 5vh 10vh;
+    padding-top: 10vh;
+}
+
+.text-in-img p{
+    font-size: larger;
+    color:#000000;
+    font-weight: 700;
+    padding: 0vh 10vh;
+    width: 90vh;
+}

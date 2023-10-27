@@ -1,0 +1,34 @@
+.submenu {
+    width: 15rem;
+    position: absolute;
+    top: 10vh;
+    left: -4vh;
+    list-style: none;
+    text-align: start;
+    z-index: 1;
+  }
+  
+  .submenu li {
+    background: #900c3f;
+    cursor: pointer;
+  }
+  
+  .submenu.clicked {
+    display: none;
+  }
+  
+  .submenu li a {
+    background: #900c3f;
+    display: block;
+    text-decoration: none;
+    font-size: large;
+    color: #fff;
+    padding: 10px;
+    transition: 0.15s ease-in-out;
+  }
+  
+  .submenu li a:hover {
+    background: #69092e;
+    color: #FFFF8F;
+  }
+  
